@@ -4,29 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./assets/com.png">
+    <link rel="icon" href="./assets/icon.png">
+    <link rel="stylesheet" href="style.css">
     <title>Dashboard Page</title>
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <div>
-                <img src="./assets/len.png" alt="search"><input type="text" name="searchbar" id="searchbar"><img src="./assets/bell.png" alt="notification"><img src="./assets/Goat.png" alt="profile-pic"><a href="#">gutgab</a>
-            </div>
-            <div>
-                <img src="./assets/Goat.png" alt="profile-pic">
-                <p>hi there</p>
-                <br>
-                <h1>Gab. G.(@gutgab)</h1>
-                <div class="topbtns">
-                    <button>New</button>
-                    <button>Upload</button>
-                    <button>Share</button>
-                </div>
-            </div>
-        </div>
         <div class="sidebar">
-            <div>
+            <div class="space">
                 <img src="./assets/dashboard.png" alt="icon">
                 <h2>Dashboard</h2>
             </div>
@@ -50,13 +35,13 @@
                 <img src="./assets/tasks.png" alt="tasks">
                 <a href="#">Tasks</a>
             </div>
-            <div>
+            <div class="space">
                 <img src="./assets/com.png" alt="communities">
                 <a href="#">Communities</a>
             </div>
             <div>
                 <img src="./assets/config.png" alt="settings">
-                <a href="Settings"></a>
+                <a href="Settings">Settings</a>
             </div>
             <div>
                 <img src="./assets/help.png" alt="support">
@@ -64,7 +49,30 @@
             </div>
             <div>
                 <img src="./assets/shield.png" alt="privacy">
-                <a href="Privacy"></a>
+                <a href="Privacy">Privacy</a>
+            </div>
+        </div>
+        <div class="header">
+            <div class="head1">
+                <img src="./assets/len.png" alt="search">
+                <input type="text" name="searchbar" id="searchbar">
+                <img src="./assets/bell.png" alt="notification">
+                <img class="profile-pic big-pic" src="./assets/Goat.png" alt="profile-pic">
+                <a href="#">gutgab</a>
+            </div>
+            <div class="head2">
+                <div>
+                    <img class="profile-pic" src="./assets/Goat.png" alt="profile-pic">
+                    <div>
+                        <p>hi there,</p>
+                        <h1>Gab. G.(@gutgab)</h1>
+                    </div>    
+                </div>
+                <div class="topbtns">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
             </div>
         </div>
         <div class="main">
@@ -73,59 +81,79 @@
                 <div class="grid">
                     <div class="project">
                         <h2>Generic name</h2>
-                        <p>generic text...</p>
-                        <img src="./assets/star.png" alt="fav"><img src="./assets/eye.png" alt="watch"><img src="./assets/fork.png" alt="fork">
-                    </div>
-                    <div class="project">
-                        <h2>Generic name</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores a doloribus laborum perspiciatis inventore, officiis eos unde dignissimos nobis</p>
-                        <img src="./assets/star.png" alt="fav"><img src="./assets/eye.png" alt="watch"><img src="./assets/fork.png" alt="fork">
+                        <div>
+                            <img src="./assets/star.png" alt="fav"><img src="./assets/eye.png" alt="watch"><img src="./assets/fork.png" alt="fork">
+                        </div>
                     </div>
                     <div class="project">
                         <h2>Generic name 2</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores a doloribus laborum perspiciatis inventore, officiis eos unde dignissimos nobis</p>
-                        <img src="./assets/star.png" alt="fav"><img src="./assets/eye.png" alt="watch"><img src="./assets/fork.png" alt="fork">
+                        <div>
+                            <img src="./assets/star.png" alt="fav"><img src="./assets/eye.png" alt="watch"><img src="./assets/fork.png" alt="fork">
+                        </div>
                     </div>
                     <div class="project">
                         <h2>Generic name 3</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores a doloribus laborum perspiciatis inventore, officiis eos unde dignissimos nobis</p>
-                        <img src="./assets/star.png" alt="fav"><img src="./assets/eye.png" alt="watch"><img src="./assets/fork.png" alt="fork">
+                        <div>
+                            <img src="./assets/star.png" alt="fav"><img src="./assets/eye.png" alt="watch"><img src="./assets/fork.png" alt="fork">
+                        </div>
                     </div>
                     <div class="project">
                         <h2>Generic name 4</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores a doloribus laborum perspiciatis inventore, officiis eos unde dignissimos nobis</p>
-                        <img src="./assets/star.png" alt="fav"><img src="./assets/eye.png" alt="watch"><img src="./assets/fork.png" alt="fork">
+                        <div>
+                            <img src="./assets/star.png" alt="fav"><img src="./assets/eye.png" alt="watch"><img src="./assets/fork.png" alt="fork">
+                        </div>
                     </div>
                     <div class="project">
                         <h2>Generic name 5</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores a doloribus laborum perspiciatis inventore, officiis eos unde dignissimos nobis</p>
-                        <img src="./assets/star.png" alt="fav"><img src="./assets/eye.png" alt="watch"><img src="./assets/fork.png" alt="fork">
+                        <div>
+                            <img src="./assets/star.png" alt="fav"><img src="./assets/eye.png" alt="watch"><img src="./assets/fork.png" alt="fork">
+                        </div>
                     </div>
                     <div class="project">
                         <h2>Generic name 6</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores a doloribus laborum perspiciatis inventore, officiis eos unde dignissimos nobis</p>
-                        <img src="./assets/star.png" alt="fav"><img src="./assets/eye.png" alt="watch"><img src="./assets/fork.png" alt="fork">
+                        <div>
+                            <img src="./assets/star.png" alt="fav"><img src="./assets/eye.png" alt="watch"><img src="./assets/fork.png" alt="fork">
+                        </div>
+                    </div>
+                    <div class="project">
+                        <h2>Generic name 7</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores a doloribus laborum perspiciatis inventore, officiis eos unde dignissimos nobis</p>
+                        <div>
+                            <img src="./assets/star.png" alt="fav"><img src="./assets/eye.png" alt="watch"><img src="./assets/fork.png" alt="fork">
+                        </div>
+                    </div>
+                    <div class="project">
+                        <h2>Generic name 8</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores a doloribus laborum perspiciatis inventore, officiis eos unde dignissimos nobis</p>
+                        <div>
+                            <img src="./assets/star.png" alt="fav"><img src="./assets/eye.png" alt="watch"><img src="./assets/fork.png" alt="fork">
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="sidebar2">
+            <div class="sidebar-b">
                 <div>
                     <h2>Announcements</h2>
                     <div class="one">
                         <div>
-                            <h2>announcement 1</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur optio temporibus quae a porro suscipit at. Quia modi dolores unde ex rem. Blanditiis itaque repellat saepe earum voluptates, ipsa magnam!</p>
+                            <h3>announcement 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur optio temporibus quae</p>
                             <br>
                         </div>
                         <div>
-                            <h2>announcement 2</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur optio temporibus quae a porro suscipit at. Quia modi dolores unde ex rem. Blanditiis itaque repellat saepe earum voluptates, ipsa magnam!</p>
+                            <h3>announcement 2</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur optio temporibus quae</p>
                             <br>
                         </div>
                         <div>
-                            <h2>announcement 3</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur optio temporibus quae a porro suscipit at. Quia modi dolores unde ex rem. Blanditiis itaque repellat saepe earum voluptates, ipsa magnam!</p>
-                            <br>
+                            <h3>announcement 3</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur optio temporibus quae</p>
                         </div>
                     </div>
                 </div>
@@ -133,19 +161,32 @@
                     <h2>Trending</h2>
                     <div class="two">
                         <div>
-                            <img src="./assets/duck.png" alt="profile-pic">
-                            <h2>@duck</h2>
-                            <h3>bio text text quack</h3>
+                            <img class="profile-pic" src="./assets/duck.png" alt="profile-pic">
+                            <div>
+                                <h3>@duck</h3>
+                                <p>bio text text quack</p>
+                            </div>
                         </div>
                         <div>
-                            <img src="./assets/Lion.png" alt="profile-pic">
-                            <h2>@Lio</h2>
-                            <h3>bio text text roar</h3>
+                            <img class="profile-pic" src="./assets/Lion.png" alt="profile-pic">
+                            <div>
+                                <h3>@Lio</h3>
+                                <p>bio text text roar</p>
+                            </div>
                         </div>
                         <div>
-                            <img src="./assets/Sloth.png" alt="profile-pic">
-                            <h2>@Sloth</h2>
-                            <h3>bio text text zzz</h3>
+                            <img class="profile-pic" src="./assets/Sloth.png" alt="profile-pic">
+                            <div>
+                                <h3>@Sloth</h3>
+                                <p>bio text text zzz</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="profile-pic" src="./assets/Owl.png" alt="profile-pic">
+                            <div>
+                                <h3>@Owl</h3>
+                                <p>bio text text OwO</p>
+                            </div>
                         </div>
                     </div>
                 </div>
